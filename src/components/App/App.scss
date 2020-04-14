@@ -21,6 +21,24 @@ body {
   font-family: $font-family-base;
   color: $light-color;
   text-align: center;
+  display: flex;
+  width: 100%;
+  // max-width: $drum-machine-w * 2;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading:before,
+.heading:after {
+  content: "";
+  border-top: 2px solid;
+  margin: 0 1rem 0 0;
+  flex: 1 0 1rem;
+}
+
+.heading:after {
+  margin: 0 0 0 1rem;
 }
 
 .instructions {
@@ -28,6 +46,10 @@ body {
   color: $light-color;
   text-align: center;
   max-width: $drum-machine-w * 2;
+
+  @media (min-width: 768px) {
+    font-size: 1.1rem;
+  }
 }
 
 .drum-machine {
@@ -39,6 +61,10 @@ body {
   align-items: center;
   border: 1px solid black;
   background-color: $secondary-color;
+
+  @media (min-width: 768px) {
+    width: $drum-machine-w + 60px;
+  }
 }
 
 .drum-pad-container {
@@ -56,4 +82,9 @@ body {
   height: 3rem;
   background-color: black;
   color: $light-color;
+
+  @media (min-width: 768px) {
+    height: 4rem;
+    font-size: 1.2rem;
+  }
 }

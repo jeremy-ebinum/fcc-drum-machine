@@ -25,6 +25,10 @@ $drum-pad-bg-accent-2: darken($drum-pad-bg, 15%);
     background-color: $drum-pad-bg-accent-1;
     box-shadow: 0 0 2px 1px #000;
   }
+
+  @media (min-width: 768px) {
+    font-size: 1.4rem;
+  }
 }
 
 .drum-pad:focus {
