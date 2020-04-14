@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ["airbnb", "plugin:prettier/recommended", "prettier/react"],
+  extends: [
+    "airbnb",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended",
+    "prettier/react",
+  ],
   env: {
     browser: true,
     commonjs: true,

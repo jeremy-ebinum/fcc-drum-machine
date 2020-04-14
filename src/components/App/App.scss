@@ -1,0 +1,59 @@
+@import "../../styles/partials/variables";
+
+$drum-machine-w: 300px;
+$drum-pad-container-w: 100%;
+$display-w: 97%;
+
+body {
+  background-color: $primary-color;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.heading {
+  font-family: $font-family-base;
+  color: $light-color;
+  text-align: center;
+}
+
+.instructions {
+  padding: 0 1rem;
+  color: $light-color;
+  text-align: center;
+  max-width: $drum-machine-w * 2;
+}
+
+.drum-machine {
+  width: $drum-machine-w;
+  padding: 0.25rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: $secondary-color;
+}
+
+.drum-pad-container {
+  width: $drum-pad-container-w;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  width: $display-w;
+  height: 3rem;
+  background-color: black;
+  color: $light-color;
+}

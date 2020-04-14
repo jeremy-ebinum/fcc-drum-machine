@@ -1,0 +1,41 @@
+@import "../../styles/partials/variables";
+
+$drum-pad-bg: $light-color;
+$drum-pad-bg-accent-1: darken($drum-pad-bg, 10%);
+$drum-pad-bg-accent-2: darken($drum-pad-bg, 15%);
+
+.drum-pad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 30%;
+  background-color: $drum-pad-bg;
+  color: $primary-color;
+  font-size: 1.1rem;
+  font-weight: 700;
+  box-shadow: 2px 5px 2px 1px #000;
+  margin: 0.25rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.4s;
+
+  &.isActive {
+    background-color: $drum-pad-bg-accent-1;
+    box-shadow: 0 0 2px 1px #000;
+  }
+}
+
+.drum-pad:focus {
+  background-color: $drum-pad-bg-accent-2;
+}
+
+.drum-pad:hover {
+  background-color: $drum-pad-bg-accent-1;
+}
+
+.drum-pad:active {
+  background-color: $drum-pad-bg-accent-1;
+  box-shadow: 0 0 2px 1px #000;
+}

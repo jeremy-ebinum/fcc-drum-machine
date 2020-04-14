@@ -1,5 +1,6 @@
 dependencies:
   core-js: 3.6.5
+  prop-types: 15.7.2
   react: 16.13.1
   react-dom: 16.13.1_react@16.13.1
   regenerator-runtime: 0.13.5
@@ -12,13 +13,13 @@ devDependencies:
   babel-loader: 8.1.0_@babel+core@7.9.0+webpack@4.42.1
   css-loader: 3.4.2_webpack@4.42.1
   eslint: 6.8.0
-  eslint-config-airbnb: 18.1.0_93d707b3c4a28e806b96154710814f94
+  eslint-config-airbnb: 18.1.0_bceb4880fa188e5acc719d5f2f539490
   eslint-config-prettier: 6.10.1_eslint@6.8.0
   eslint-plugin-import: 2.20.2_eslint@6.8.0
   eslint-plugin-jsx-a11y: 6.2.3_eslint@6.8.0
   eslint-plugin-prettier: 3.1.2_eslint@6.8.0+prettier@2.0.4
   eslint-plugin-react: 7.19.0_eslint@6.8.0
-  eslint-plugin-react-hooks: 2.5.1_eslint@6.8.0
+  eslint-plugin-react-hooks: 3.0.0_eslint@6.8.0
   file-loader: 6.0.0_webpack@4.42.1
   html-webpack-plugin: 4.2.0_webpack@4.42.1
   mini-css-extract-plugin: 0.9.0_webpack@4.42.1
@@ -2689,14 +2690,14 @@ packages:
       eslint-plugin-import: ^2.20.1
     resolution:
       integrity: sha512-+XCcfGyCnbzOnktDVhwsCAx+9DmrzEmuwxyHUJpw+kqBVT744OUBrB09khgFKlK1lshVww6qXGsYPZpavoNjJw==
-  /eslint-config-airbnb/18.1.0_93d707b3c4a28e806b96154710814f94:
+  /eslint-config-airbnb/18.1.0_bceb4880fa188e5acc719d5f2f539490:
     dependencies:
       eslint: 6.8.0
       eslint-config-airbnb-base: 14.1.0_8cdb6d8c18c3319a1365bd5afa0063a3
       eslint-plugin-import: 2.20.2_eslint@6.8.0
       eslint-plugin-jsx-a11y: 6.2.3_eslint@6.8.0
       eslint-plugin-react: 7.19.0_eslint@6.8.0
-      eslint-plugin-react-hooks: 2.5.1_eslint@6.8.0
+      eslint-plugin-react-hooks: 3.0.0_eslint@6.8.0
       object.assign: 4.1.0
       object.entries: 1.1.1
     dev: true
@@ -2790,7 +2791,7 @@ packages:
       prettier: '>= 1.13.0'
     resolution:
       integrity: sha512-GlolCC9y3XZfv3RQfwGew7NnuFDKsfI4lbvRK+PIIo23SFH+LemGs4cKwzAaRa+Mdb+lQO/STaIayno8T5sJJA==
-  /eslint-plugin-react-hooks/2.5.1_eslint@6.8.0:
+  /eslint-plugin-react-hooks/3.0.0_eslint@6.8.0:
     dependencies:
       eslint: 6.8.0
     dev: true
@@ -2799,7 +2800,7 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
     resolution:
-      integrity: sha512-Y2c4b55R+6ZzwtTppKwSmK/Kar8AdLiC2f9NADCuxbcTgPPg41Gyqa6b9GppgXSvCtkRw43ZE86CT5sejKC6/g==
+      integrity: sha512-EjxTHxjLKIBWFgDJdhKKzLh5q+vjTFrqNZX36uIxWS4OfyXe5DawqPj3U5qeJ1ngLwatjzQnmR0Lz0J0YH3kxw==
   /eslint-plugin-react/7.19.0_eslint@6.8.0:
     dependencies:
       array-includes: 3.1.1
@@ -7530,12 +7531,13 @@ specifiers:
   eslint-plugin-jsx-a11y: ^6.2.3
   eslint-plugin-prettier: ^3.1.2
   eslint-plugin-react: ^7.19.0
-  eslint-plugin-react-hooks: ^2.5.0
+  eslint-plugin-react-hooks: ^3.0.0
   file-loader: ^6.0.0
   html-webpack-plugin: ^4.2.0
   mini-css-extract-plugin: ^0.9.0
   node-sass: ^4.13.1
   prettier: ^2.0.4
+  prop-types: ^15.7.2
   react: ^16.13.1
   react-dom: ^16.13.1
   regenerator-runtime: ^0.13.5
